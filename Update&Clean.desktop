@@ -6,5 +6,5 @@ Comment=Actualizar
 Icon=update.png
 Name=Aplicación para actualizar el sistema
 Exec=keepUp.sh
-Name[es]=Update&Clean
-Name[es_ES]=Updater, upgrader and cleaner for Debian based linux distros.
+Name=Update&Clean
+
