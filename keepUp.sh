@@ -1,14 +1,15 @@
 #!/bin/bash
 #Auto updater/upgrader/cleaner for:
-#	- debian-based linux distros
-# 	- darwin macOS systems
+#	- debian-based linux distros (with ohMyZsh installed)
+# 	- darwin macOS systems (with homebrew & ohMyZsh installed)
+
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 if [ $# -eq 0 ]
   then
     echo "Please, specify your system's OS with the following options:";
-    echo "	linux	-> for debian-based linux distros";
-    echo "	mac 	-> for darwin systems with homebrew installed";
+    echo "	linux	-> for debian-based linux distros with ohMyZsh installed";
+    echo "	mac 	-> for darwin systems with homebrew & ohMyZsh installed";
 fi
 if [ $# -eq 1 ]
   then
