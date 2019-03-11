@@ -24,7 +24,7 @@ if [ $# -eq 1 ]
 fi
 if [ $# -eq 2 ]
   then
-    if [ $1 == "linux" && $2 == "y" ]
+    if [[ $1 == "linux" ]] && [[ $2 == "y" ]]
       	then
     	sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get -y clean && ${__dir}/upgradeZSH.sh
     fi
