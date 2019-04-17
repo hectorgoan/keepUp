@@ -43,7 +43,7 @@ if [ $# -eq 2 ]
 fi
 if [ $# -eq 3 ]
   then
-    if [[ $1 == "f" ]] && [ $2 == "l" ]] && [[ $3 == "y" ]]
+    if [[ $1 == "f" ]] && [[ $2 == "l" ]] && [[ $3 == "y" ]]
       	then
     	sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get -y clean
     fi
